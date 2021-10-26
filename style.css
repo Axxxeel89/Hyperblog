@@ -8,15 +8,18 @@ body{
 }
 
 h1{
+    position: relative;
     font-size: 30px;
     color:rgb(0, 0, 143);
     width: 400px;
     height: 100px;
+    top: 15px;
     border-radius: 10px;
     background-color: rgb(202, 253, 255);
     margin: 0 auto;
     border: 1px black solid;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 .estilo{
@@ -31,4 +34,17 @@ h1{
     padding: 30px;    
     overflow: auto;
     
+}
+
+.cabecera{
+    position:absolute;
+    width: 150px;
+    height: 35px;
+    top: -20px;
+    left: calc(50% - 75px);
+    text-align: center;
+    color: white;
+    padding: 2px;
+    border-radius: 10px;
+    background: linear-gradient(165deg, rgb(117, 0, 117) 50%, rgb(0, 88, 252) 30%);
 }
