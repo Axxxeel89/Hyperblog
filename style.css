@@ -21,14 +21,19 @@ h1{
 
 .estilo{
     width: 900px;
-    height: 400px;
+    height: auto;
     text-align: center;
     background-color: rgb(255, 234, 151);
     color:crimson;
     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 20px;
     margin: 0 auto;
     padding: 30px;    
     overflow: auto;
     
+}
+
+.ultimo-parrafo{
+    color: darkblue;
 }
