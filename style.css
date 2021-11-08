@@ -52,3 +52,19 @@ h1{
     border-radius: 10px;
     background: linear-gradient(165deg, rgb(117, 0, 117) 50%, rgb(0, 88, 252) 30%);
 }
+
+footer{
+    position:relative;
+    bottom: 60px;
+    width: 900px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+footer p{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(5, 255, 38, 0.781);
+    background-color: rgb(0, 48, 48);
+}
