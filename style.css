@@ -5,6 +5,7 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color:blueviolet;
+    background-color: rgb(39, 39, 39);
 }
 
 h1{
@@ -20,6 +21,18 @@ h1{
     border: 1px black solid;
     padding: 10px;
     margin-bottom: 10px;
+}
+
+.logo-alien{
+    width: 50px;
+    height: auto;
+    position:absolute;
+    top:45px;
+    left: 335px;
+}
+
+.Parrafo{
+    margin-top:30px;
 }
 
 .estilo{
@@ -51,4 +64,9 @@ h1{
     padding: 2px;
     border-radius: 10px;
     background: linear-gradient(165deg, rgb(117, 0, 117) 50%, rgb(0, 88, 252) 30%);
+}
+
+footer{
+    width: auto;
+    height: 100px;
 }
